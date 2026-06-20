@@ -6,8 +6,8 @@ from pathlib import Path
 nama_file = {
     "WhatsApp Chat with Mikrob (Official).txt": "WA Mikrob.txt",
     "WhatsApp Chat with Patologi HSNI.txt": "WA Patologi.txt",
-    "WhatsApp Chat with MicUKI/UKA(Mikro + UKI +UKA) HSNI.txt": "WA MicUKI.txt",
-    "WhatsApp Chat with PENGURUSAN MICROB.txt": "WA PENGURUSAN MICROB.txt",
+    "WhatsApp Chat with MicUKIUKA(Mikro + UKI +UKA) HSNI.txt": "WA MicUKI.txt",
+    "WhatsApp Chat with 🦠PENGURUSAN MICROB.txt": "WA PENGURUSAN MICROB.txt",
     "WhatsApp Chat with pengurusan patologi hsni.txt": "WA pengurusan patologi.txt",
     "WhatsApp Chat with SO MIKROB JOHOR & SO Wakil Hospital District.txt": "WA SO Johor.txt",
     "WhatsApp Chat with MIKROB JOHOR.txt": "WA Mikrob Johor.txt",
@@ -21,7 +21,7 @@ def main():
     date_pattern = re.compile(r'^(\d{2})[/](\d{2})[/](\d{4})(.*)')
 
     folder_log = Path("logWA")
-    folder_log.mkdir()
+    folder_log.mkdir(exist_ok=True)
 
     for lama, baharu in nama_file.items():
         outbaharu = folder_log / Path(baharu)
