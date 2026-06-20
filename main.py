@@ -5,6 +5,14 @@ from pathlib import Path
 
 nama_file = {
     "WhatsApp Chat with Mikrob (Official).txt": "WA Mikrob.txt",
+    "WhatsApp Chat with Patologi HSNI.txt": "WA Patologi.txt",
+    "WhatsApp Chat with MicUKI/UKA(Mikro + UKI +UKA) HSNI.txt": "WA MicUKI.txt",
+    "WhatsApp Chat with PENGURUSAN MICROB.txt": "WA PENGURUSAN MICROB.txt",
+    "WhatsApp Chat with pengurusan patologi hsni.txt": "WA pengurusan patologi.txt",
+    "WhatsApp Chat with SO MIKROB JOHOR & SO Wakil Hospital District.txt": "WA SO Johor.txt",
+    "WhatsApp Chat with MIKROB JOHOR.txt": "WA Mikrob Johor.txt",
+    "WhatsApp Chat with Dr Izzah HSNI.txt": "WA Dr Izzah.txt",
+    "WhatsApp Chat with Dr Nani HSNI.txt": "WA Dr Nani.txt"
 }
 
 def main():
